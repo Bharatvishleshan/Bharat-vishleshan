@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BHARAT VISHLESHAN | दावे नहीं… आंकड़ों से विश्लेषण!</title>
+  <meta name="description" content="BHARAT VISHLESHAN — भारत, Finance, Economy और Data का सरल और तथ्य-आधारित विश्लेषण।">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#home" aria-label="BHARAT VISHLESHAN Home">
+      <img src="logo.png" alt="BHARAT VISHLESHAN logo">
+      <div class="brand-copy">
+        <strong>BHARAT <span>VISHLESHAN</span></strong>
+        <small>दावे नहीं… आंकड़ों से विश्लेषण!</small>
+      </div>
+    </a>
+    <nav class="desktop-nav">
+      <a href="#home">Home</a>
+      <a href="#categories">Categories</a>
+      <a href="#analysis">Analysis</a>
+      <a href="#videos">Videos</a>
+      <a href="#about">About</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" aria-label="Search" onclick="focusSearch()">⌕</button>
+      <button class="icon-btn menu-btn" aria-label="Menu" onclick="toggleMenu()">☰</button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="mobile-menu">
+    <a href="#home" onclick="toggleMenu()">Home</a>
+    <a href="#categories" onclick="toggleMenu()">Categories</a>
+    <a href="#analysis" onclick="toggleMenu()">Analysis</a>
+    <a href="#videos" onclick="toggleMenu()">Videos</a>
+    <a href="#about" onclick="toggleMenu()">About</a>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <div class="eyebrow">DATA • FINANCE • INDIA</div>
+        <h1>हर खबर के पीछे<br><span>आंकड़ों की कहानी।</span></h1>
+        <p>खबरों, वित्त और अर्थव्यवस्था की सरल भाषा में — context, numbers और clear explainers के साथ समझिए।</p>
+        <div class="hero-buttons">
+          <a class="primary-btn" href="#videos"><span class="play">▶</span> Latest Videos</a>
+          <a class="secondary-btn" href="https://youtube.com/channel/UCvxD0t_KVUwZ9aAYzKoyr5Q" target="_blank" rel="noopener"><span class="yt">▶</span> YouTube देखें <b>→</b></a>
+        </div>
+        <div class="chips">
+          <span>#India</span><span>#Finance</span><span>#Economy</span><span>#Analysis</span><span>#BharatVishleshan</span>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="hero-visual.jpg" alt="भारत, अर्थव्यवस्था और डेटा का visual">
+      </div>
+    </div>
+  </section>
+
+  <section id="categories" class="section">
+    <div class="section-heading">
+      <div>
+        <div class="eyebrow">EXPLORE CATEGORIES</div>
+        <h2>श्रेणियां</h2>
+      </div>
+      <a href="#categories">सभी देखें →</a>
+    </div>
+    <div class="category-grid">
+      <a class="cat-card cat-blue" href="#analysis"><span class="cat-icon">▥</span><strong>India</strong><p>देश से जुड़े data और विश्लेषण</p><b>→</b></a>
+      <a class="cat-card cat-green" href="#analysis"><span class="cat-icon">₹</span><strong>Finance</strong><p>बचत, निवेश और धन प्रबंधन</p><b>→</b></a>
+      <a class="cat-card cat-red" href="#analysis"><span class="cat-icon">↗</span><strong>Investing</strong><p>SIP, म्यूचुअल फंड और शेयर बाजार</p><b>→</b></a>
+      <a class="cat-card cat-purple" href="#analysis"><span class="cat-icon">⌂</span><strong>Banking</strong><p>बैंकिंग, UPI और डिजिटल पेमेंट्स</p><b>→</b></a>
+      <a class="cat-card cat-orange" href="#analysis"><span class="cat-icon">▣</span><strong>Business</strong><p>बिजनेस और उद्यमिता</p><b>→</b></a>
+      <a class="cat-card cat-cyan" href="#analysis"><span class="cat-icon">▤</span><strong>Tax &amp; Economy</strong><p>टैक्स और अर्थव्यवस्था से जुड़े मुद्दे</p><b>→</b></a>
+    </div>
+  </section>
+
+  <section id="analysis" class="section analysis-section">
+    <div class="section-heading">
+      <div>
+        <div class="eyebrow">LATEST ANALYSIS</div>
+        <h2>ताज़ा विश्लेषण</h2>
+      </div>
+      <a href="articles/index.html">सभी देखें →</a>
+    </div>
+    <div class="featured">
+      <a class="featured-thumb" href="articles/gdp-unemployment-inflation.html">
+        <img src="https://i.ytimg.com/vi/DchLDgko5l4/hqdefault.jpg" alt="GDP, बेरोजगारी और महंगाई विश्लेषण" loading="lazy">
+        <span class="duration">▶ 8:45</span>
+      </a>
+      <article class="featured-copy">
+        <span class="mini-label">BHARAT VISHLESHAN</span>
+        <h3>GDP बढ़ रही है, फिर भी बेरोजगारी और महंगाई का दबाव क्यों?</h3>
+        <div class="meta">Bharat Vishleshan <span>✓</span> · 1.4M views · 2 days ago</div>
+        <p>GDP बढ़ने के बावजूद आम जनता को बेरोजगारी और महंगाई की चिंता क्यों है? इस analysis में GDP, रोजगार, आय और inflation की economic chain समझिए।</p>
+        <a class="primary-btn small" href="articles/gdp-unemployment-inflation.html">पूरा Analysis पढ़ें →</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="videos" class="section videos-section">
+    <div class="section-heading">
+      <div>
+        <div class="eyebrow">WATCH</div>
+        <h2>ताज़ा वीडियो</h2>
+      </div>
+      <a href="https://youtube.com/channel/UCvxD0t_KVUwZ9aAYzKoyr5Q" target="_blank" rel="noopener">सभी वीडियो →</a>
+    </div>
+    <div class="video-grid">
+      <a class="video-card" href="https://youtube.com/shorts/DchLDgko5l4" target="_blank" rel="noopener">
+        <div class="thumb"><img src="https://i.ytimg.com/vi/DchLDgko5l4/hqdefault.jpg" alt="GDP analysis video"><span class="duration">▶ 8:45</span></div>
+        <h3>GDP बढ़ रही है, फिर भी बेरोजगारी और महंगाई का दबाव क्यों?</h3>
+        <p>Bharat Vishleshan · 1.4M views</p>
+      </a>
+      <a class="video-card" href="https://youtube.com/channel/UCvxD0t_KVUwZ9aAYzKoyr5Q" target="_blank" rel="noopener">
+        <div class="thumb placeholder thumb-rbi"><span>RBI की नई नीति<br><b>क्या बदलेगा?</b></span><i>▶</i></div>
+        <h3>RBI की नई नीति: आपके लिए क्या बदलेगा?</h3>
+        <p>Bharat Vishleshan · Latest analysis</p>
+      </a>
+      <a class="video-card" href="https://youtube.com/channel/UCvxD0t_KVUwZ9aAYzKoyr5Q" target="_blank" rel="noopener">
+        <div class="thumb placeholder thumb-market"><span>शेयर बाजार में<br><b>बड़ी हलचल!</b></span><i>▶</i></div>
+        <h3>शेयर बाजार में बड़ी हलचल, निवेशकों के लिए क्या है संकेत?</h3>
+        <p>Bharat Vishleshan · Latest video</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="subscribe-strip">
+    <div class="yt-big">▶</div>
+    <div><strong>हमारे YouTube चैनल को Subscribe करें</strong><small>ताज़ा वीडियो, गहरा विश्लेषण और जरूरी अपडेट्स के लिए!</small></div>
+    <a href="https://youtube.com/channel/UCvxD0t_KVUwZ9aAYzKoyr5Q?sub_confirmation=1" target="_blank" rel="noopener">🔔 Subscribe करें</a>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="eyebrow">ABOUT BHARAT VISHLESHAN</div>
+    <h2>दावे नहीं… आंकड़ों से विश्लेषण!</h2>
+    <p>भारत, finance, economy और money से जुड़े विषयों को सरल भाषा, context और data-driven storytelling के साथ समझाने के लिए बनाया गया platform.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-brand"><img src="logo.png" alt=""><strong>BHARAT VISHLESHAN</strong></div>
+  <div class="footer-links"><a href="#home">Home</a><a href="articles/index.html">Articles</a><a href="#about">About</a><a href="https://youtube.com/channel/UCvxD0t_KVUwZ9aAYzKoyr5Q" target="_blank" rel="noopener">YouTube</a></div>
+  <small>© 2026 BHARAT VISHLESHAN</small>
+</footer>
+
+<div id="searchBox" class="search-box" hidden>
+  <input id="searchInput" type="search" placeholder="क्या खोजें? जैसे GDP, inflation, UPI..." oninput="searchSite()">
+  <button onclick="closeSearch()">×</button>
+  <div id="searchHint">Search feature ready — articles और topics के लिए उपयोग करें।</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
